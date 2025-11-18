@@ -11,6 +11,15 @@ const ciphers = [
     security: 'Extremamente Fraca',
     path: '/atbash'
   },
+  {
+    id: 'playfair',
+    name: 'Cifra Playfair',
+    icon: '🧩',
+    description: 'Substituição poligráfica usando digramas e uma matriz 5x5 construída com uma palavra-chave',
+    difficulty: 'Intermediária',
+    security: 'Moderada',
+    path: '/playfair'
+  },
 ]
 
 function HomePage() {
