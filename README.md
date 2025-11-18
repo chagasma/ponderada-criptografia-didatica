@@ -52,3 +52,7 @@ npm run build
 ## Cifras implementadas
 
 - Cifra de Atbash: Substituição inversa do alfabeto (A vira Z, B vira Y, etc.)
+
+## Documentação
+
+Para uma explicação detalhada de cada algoritmo, incluindo seu funcionamento, propósito histórico e características técnicas, consulte a [Documentação dos Algoritmos](docs/ALGORITMOS.md).
