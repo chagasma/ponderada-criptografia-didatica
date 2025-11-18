@@ -1,0 +1,195 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #646cff;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #646cff;
+}
+
+header p {
+  color: #888;
+  font-size: 1.1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h2, h3 {
+  margin-top: 0;
+  color: #646cff;
+}
+
+.cipher-info p {
+  line-height: 1.6;
+  text-align: left;
+}
+
+.mapping-table {
+  overflow-x: auto;
+}
+
+.mapping-grid {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.mapping-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  background: rgba(100, 108, 255, 0.1);
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.mapping-item .original {
+  color: #61dafb;
+  font-weight: bold;
+}
+
+.mapping-item .arrow {
+  color: #888;
+  font-size: 0.8rem;
+  margin: 0.2rem 0;
+}
+
+.mapping-item .cipher {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.cipher-tool {
+  text-align: left;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #646cff;
+}
+
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-family: monospace;
+  font-size: 1rem;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+textarea::placeholder {
+  color: #666;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #646cff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #535bf2;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.security-note {
+  background: rgba(255, 193, 7, 0.1);
+  border-color: rgba(255, 193, 7, 0.3);
+}
+
+.security-note h3 {
+  color: #ffc107;
+  margin-bottom: 0.5rem;
+}
+
+.security-note p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.security-note strong {
+  color: #ff9800;
+}
+
+@media (max-width: 768px) {
+  .mapping-grid {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.3rem;
+  }
+
+  .mapping-item {
+    padding: 0.3rem;
+    font-size: 0.9rem;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
