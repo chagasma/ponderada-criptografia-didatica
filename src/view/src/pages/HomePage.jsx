@@ -17,7 +17,7 @@ function HomePage() {
   return (
     <div className="home-page">
       <header className="home-header">
-        <h1>🔐 Criptografia Didática</h1>
+        <h1>Criptografia Didática</h1>
         <p className="subtitle">
           Aprenda sobre algoritmos de criptografia de forma interativa e visual
         </p>
