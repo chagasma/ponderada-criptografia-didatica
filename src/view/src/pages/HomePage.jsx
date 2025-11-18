@@ -73,15 +73,6 @@ function HomePage() {
               </div>
             </Link>
           ))}
-
-          {/* Card placeholder para futuras cifras */}
-          <div className="cipher-card placeholder">
-            <div className="cipher-icon">➕</div>
-            <h3>Mais em breve...</h3>
-            <p className="cipher-description">
-              Novas cifras serão adicionadas em breve!
-            </p>
-          </div>
         </section>
       </main>
     </div>
