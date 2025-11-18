@@ -20,6 +20,15 @@ const ciphers = [
     security: 'Moderada',
     path: '/playfair'
   },
+  {
+    id: 'vigenere',
+    name: 'Cifra de Vigenère',
+    icon: '🔑',
+    description: 'Cifra polialfabética usando uma palavra-chave para múltiplos deslocamentos de César',
+    difficulty: 'Intermediária',
+    security: 'Moderada',
+    path: '/vigenere'
+  },
 ]
 
 function HomePage() {
